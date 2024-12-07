@@ -1,0 +1,154 @@
+.container{
+max-width: 1400px;
+margin: 0 auto;
+}
+.container_header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+}
+.container_hero {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header__item{
+    margin: 20px;
+}
+.hero__img{
+    width: 350px;
+    height: 300px;
+}
+.hero__text {
+    width: 453px;
+    height: 116px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hero__title{
+    font-family: Nico Moji;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-size: 72px;
+}
+.hero__btn{
+    border-radius: 6px;
+    box-shadow: 0px 2px 13px 0px rgb(0, 209, 226);
+    background: rgb(0, 255, 213);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.skill__full {
+    width: 300px;
+    height: 10px;
+    background-color: aqua;
+}
+.skill__fill {
+    width: 300px;
+    height: 10px;
+    background-color: gray;
+}
+.skill__fill_1 {
+    width: 100px;
+    height: 10px;
+    background-color: gray;
+}
+.skill__fill_2 {
+    width: 100px;
+    height: 10px;
+    background-color: gray;
+}
+.about_list {
+    list-style: none;
+}
+.container_about {
+    background-color: darkgrey;
+}
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about__title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+}
+.img-group {
+    width: 650px;
+}
+.about {
+    background-color: darkgray;
+}
+.hero {
+    background-color: gray;
+}
+.header {
+    background-color: gray;
+}
+.video_video {
+    width: 95%;
+    height: 600px;
+    border: 50px solid darkgrey;
+    justify-content: center;
+    border-radius: 29px;
+}
+.container_video {
+    padding: 80px 0 100px;
+}
+.video {
+    background-color: gray;
+}
+.container_video h2 {
+    text-align: center;
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+}
+.gallery__img {
+    width: 100%;
+}
+.gallery {
+    background-color: darkgrey;
+}
+.gallery__text {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+}
+.gallery__item {
+    width: 30%;
+}
+.gallery__list {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin-bottom: 0;
+
+}
+ul {
+    list-style: none;
+}
+.footer {
+    background-color: gray;
+}
+.container_footer {
+    display: flex;
+    justify-content: space-around;
+}
